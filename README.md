@@ -27,7 +27,7 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 
 ### MySQL Connector Setup
 1. Download [mysql-connector-j-8.2.0.jar](https://dev.mysql.com/downloads/connector/j/)
-2. Place the JAR file in:(.../BankManagement\dist\lib\mysql-connector-j-8.2.0.jar) according to your project location.
+2. Place the JAR file in:(.../BankManagement\dist\lib\mysql-connector-j-8.2.0.jar) according to your project location. OR follow step 3.
 3. Add the JAR to your project libraries in NetBeans:
 - Right-click your project in NetBeans
 - Select "Properties" > "Libraries" 
