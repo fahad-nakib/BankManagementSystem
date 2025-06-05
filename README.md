@@ -25,11 +25,7 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 3. Create a new database named `myproject`
 4. Import the SQL file from `Database(MySQL)/myproject.sql`
 
-### Project Setup
-```bash
-git clone https://github.com/yourusername/BankManagementSystem.git
-cd BankManagementSystem
-## MySQL Connector Setup
+### MySQL Connector Setup
 1. Download [mysql-connector-j-8.2.0.jar](https://dev.mysql.com/downloads/connector/j/)
 2. Place the JAR file in:(.../BankManagement\dist\lib\mysql-connector-j-8.2.0.jar) according to your project location.
 3. Add the JAR to your project libraries in NetBeans:
@@ -37,12 +33,12 @@ cd BankManagementSystem
 - Select "Properties" > "Libraries" 
 - Click "Add JAR/Folder" and select the connector JAR
 
-## Running the Application
+### Running the Application
 1. Open the project in Apache NetBeans
 2. Clean and Build the project (Ctrl+Shift+F11)
 3. Run `SourcePakages/bankmanagement/HomePage.java` (Shift+F6)
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 | Login Screen | Dashboard | Account Creation |
 |--------------|-----------|------------------|
@@ -52,5 +48,10 @@ cd BankManagementSystem
 |-------------|------------------|------------|
 | ![Transactions](screenshots/transactions.png) | ![Customer](screenshots/customer.png) | ![Statement](screenshots/statement.png) |
 
-## 🏗️ Project Structure
+### 🏗️ Project Structure
 ![Project Structure](screenshots/main_ui.png)
+
+### Project Setup
+```bash
+git clone https://github.com/yourusername/BankManagementSystem.git
+cd BankManagementSystem
