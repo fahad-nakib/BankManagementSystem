@@ -22,8 +22,8 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 ### Database Configuration
 1. Start XAMPP and run Apache & MySQL services
 2. Open phpMyAdmin (http://localhost/phpmyadmin)
-3. Create a new database named `bank_management`
-4. Import the SQL file from `database/bank_management.sql`
+3. Create a new database named `myproject`
+4. Import the SQL file from `Database(MySQL)/myproject.sql`
 
 ### Project Setup
 ```bash
