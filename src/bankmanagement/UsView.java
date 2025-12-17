@@ -165,11 +165,21 @@ public class UsView extends javax.swing.JFrame {
         jTextField5.setEditable(false);
 
         jTextField9.setEditable(false);
+        jTextField9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField9ActionPerformed(evt);
+            }
+        });
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel10.setText("User Profile");
 
         jTextField10.setEditable(false);
+        jTextField10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField10ActionPerformed(evt);
+            }
+        });
 
         jLabel11.setText("User ID                 :");
 
@@ -688,12 +698,26 @@ public class UsView extends javax.swing.JFrame {
         {
             JOptionPane.showMessageDialog(this, "UserID and amount Required !!");
         }else{
+            String balence = sql.get_balance(u_id);
+            double c_balance = Double.parseDouble(balence);
             double amt = Double.parseDouble(amount);
-         sql.update_balance(resive_id, amount);
-         sql.with_draw(amt, u_id);
-         JOptionPane.showMessageDialog(this, "Transfer Successfull");
+            if(c_balance > amt){
+                sql.update_balance(resive_id, amount);
+                sql.with_draw(amt, u_id);
+                JOptionPane.showMessageDialog(this, "Transfer Successfull");
+            }else{
+                JOptionPane.showMessageDialog(this, "Insufficient Balance !! ");
+            }
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9ActionPerformed
+
+    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField10ActionPerformed
         
     /**
      * @param args the command line arguments
