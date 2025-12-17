@@ -1,15 +1,95 @@
 # Bank Management System
-
-![Bank Management System UI](screenshots/main_ui.png)
-
 A Java and MySQL based application for managing bank operations with an intuitive graphical interface.
 
 ## ✨ Features
 - **Account Management**: Create, view, update, and delete bank accounts
+- **Branch-Based Access**: One branch's employee cannot access other branch information
+- **Role-Based Access**: One branch's employee cannot access other branch information
 - **Transaction Processing**: Handle deposits, withdrawals, and fund transfers
 - **User Authentication**: Secure login system for bank employees
 - **Reporting**: Generate account statements and transaction history
 - **Customer Management**: Maintain comprehensive customer records
+
+### 📸 Screenshots
+
+| Login Screen | User Login | Admin Login |
+|--------------|-----------|------------------|
+| ![Login](Images/Screenshot_51.png) | ![Login](Images/Screenshot_68.png) | ![Login](Images/Screenshot_52.png) |
+
+| Admin Feature (showing- Employee info branch-wise) |
+|--------------|
+| ![Login](Images/Screenshot_53.png) |
+
+| Admin Feature (showing- view all branch information)|
+|--------------|
+| ![Login](Images/Screenshot_54.png) |
+
+| Admin Feature (showing- all salary type)|
+|--------------|
+| ![Login](Images/Screenshot_55.png) |
+
+| Admin Feature (showing- view particular branch information)|
+|--------------|
+| ![Login](Images/Screenshot_56.png) |
+
+| Admin Feature (showing- Loan details)|
+|--------------|
+| ![Login](Images/Screenshot_57.png) |
+
+| Admin Feature (Employee Registration)|
+|--------------|
+| ![Login](Images/Screenshot_58.png) |
+
+| Admin Feature (Update Employee)|
+|--------------|
+| ![Login](Images/Screenshot_59.png) |
+
+| Admin Feature (Management- set salary, add branch, and other criteria)|
+|--------------|
+| ![Login](Images/Screenshot_60.png) |
+
+
+| Accountant Feature (Update user, Deposit, withdraw )|
+|--------------|
+| ![Login](Images/Screenshot_61.png) |
+
+| Accountant Feature (Register user)|
+|--------------|
+| ![Login](Images/Screenshot_62.png) |
+
+| Manager Feature (Showing- Employee details based on different criteria )|
+|--------------|
+| ![Login](Images/Screenshot_63.png) |
+
+| Manager Feature (Showing- Update Employee Details)|
+|--------------|
+| ![Login](Images/Screenshot_65.png) |
+
+| Manager Feature (Showing- Loan Management)|
+|--------------|
+| ![Login](Images/Screenshot_66.png) |
+
+| Manager Feature (Showing- View user feedback)|
+|--------------|
+| ![Login](Images/Screenshot_67.png) |
+
+| User Feature (Showing- View user profile)|
+|--------------|
+| ![Login](Images/Screenshot_69.png) |
+
+| Manager Feature (Showing- Transfer Balance)|
+|--------------|
+| ![Login](Images/Screenshot_72.png) |
+
+| Manager Feature (Showing- provide feedback)|
+|--------------|
+| ![Login](Images/Screenshot_71.png) |
+
+### Project Setup
+```bash
+git clone https://github.com/yourusername/BankManagementSystem.git
+cd BankManagementSystem
+
 
 ## 🛠️ Prerequisites
 - [XAMPP](https://www.apachefriends.org/download.html) (for MySQL database)
@@ -38,20 +118,3 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 2. Clean and Build the project (Ctrl+Shift+F11)
 3. Run `SourcePakages/bankmanagement/HomePage.java` (Shift+F6)
 
-### 📸 Screenshots
-
-| Login Screen | Dashboard | Account Creation |
-|--------------|-----------|------------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Create Account](screenshots/create_account.png) |
-
-| Transactions | Customer Details | Statements |
-|-------------|------------------|------------|
-| ![Transactions](screenshots/transactions.png) | ![Customer](screenshots/customer.png) | ![Statement](screenshots/statement.png) |
-
-### 🏗️ Project Structure
-![Project Structure](screenshots/main_ui.png)
-
-### Project Setup
-```bash
-git clone https://github.com/yourusername/BankManagementSystem.git
-cd BankManagementSystem
