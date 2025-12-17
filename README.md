@@ -4,18 +4,19 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 ## ✨ Features
 - **Account Management**: Create, view, update, and delete bank accounts
 - **Branch-Based Access**: One branch's employee cannot access other branch information
-- **Role-Based Access**: One branch's employee cannot access other branch information
+- **Role-Based Access**: Admin, Manager, Accountant, and User have different access based on their role
 - **Transaction Processing**: Handle deposits, withdrawals, and fund transfers
 - **User Authentication**: Secure login system for bank employees
 - **Reporting**: Generate account statements and transaction history
 - **Customer Management**: Maintain comprehensive customer records
 
-### 📸 Screenshots
+### Role-Based Login Interface
 
 | Login Screen | User Login | Admin Login |
 |--------------|-----------|------------------|
 | ![Login](Images/Screenshot_51.png) | ![Login](Images/Screenshot_68.png) | ![Login](Images/Screenshot_52.png) |
 
+### Admin Features
 | Admin Feature (showing- Employee info branch-wise) |
 |--------------|
 | ![Login](Images/Screenshot_53.png) |
@@ -49,6 +50,7 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 | ![Login](Images/Screenshot_60.png) |
 
 
+### Accountant Features
 | Accountant Feature (Update user, Deposit, withdraw )|
 |--------------|
 | ![Login](Images/Screenshot_61.png) |
@@ -57,6 +59,7 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 |--------------|
 | ![Login](Images/Screenshot_62.png) |
 
+### Manager Features
 | Manager Feature (Showing- Employee details based on different criteria )|
 |--------------|
 | ![Login](Images/Screenshot_63.png) |
@@ -73,22 +76,18 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 |--------------|
 | ![Login](Images/Screenshot_67.png) |
 
+### User Features
 | User Feature (Showing- View user profile)|
 |--------------|
 | ![Login](Images/Screenshot_69.png) |
 
-| Manager Feature (Showing- Transfer Balance)|
+| User Feature (Showing- Transfer Balance)|
 |--------------|
 | ![Login](Images/Screenshot_72.png) |
 
-| Manager Feature (Showing- provide feedback)|
+| User Feature (Showing- provide feedback)|
 |--------------|
 | ![Login](Images/Screenshot_71.png) |
-
-### Project Setup
-```bash
-git clone https://github.com/yourusername/BankManagementSystem.git
-cd BankManagementSystem
 
 
 ## 🛠️ Prerequisites
@@ -117,4 +116,10 @@ cd BankManagementSystem
 1. Open the project in Apache NetBeans
 2. Clean and Build the project (Ctrl+Shift+F11)
 3. Run `SourcePakages/bankmanagement/HomePage.java` (Shift+F6)
+
+
+### Project Setup
+```bash
+git clone https://github.com/yourusername/BankManagementSystem.git
+cd BankManagementSystem
 
