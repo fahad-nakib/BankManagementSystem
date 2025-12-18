@@ -1,14 +1,14 @@
 # Bank Management System
 A Java and MySQL based application for managing bank operations with an intuitive graphical interface.
 
-## ✨ Features
+## Features
 - **Account Management**: Create, view, update, and delete bank accounts
-- **Branch-Based Access**: One branch's employee cannot access other branch information
-- **Role-Based Access**: Admin, Manager, Accountant, and User have different access based on their role
-- **Transaction Processing**: Handle deposits, withdrawals, and fund transfers
-- **User Authentication**: Secure login system for bank employees
-- **Reporting**: Generate account statements and transaction history
-- **Customer Management**: Maintain comprehensive customer records
+- **Branch‑Based Access Control**: Employees can only access data from their assigned branch
+- **Role-Based Access**: Admin, Manager, Accountant, and User each have distinct permissions
+- **Transaction Processing**: Secure handling of deposits, withdrawals, and fund transfers
+- **User Authentication**: Login system with credential validation for bank employees
+- **Reporting Module**: Generate account statements and transaction history
+- **Customer Management**: Maintain complete customer profiles and account details
 
 ### Role-Based Login Interface
 
@@ -90,13 +90,13 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 | ![Login](Images/Screenshot_71.png) |
 
 
-## 🛠️ Prerequisites
+## Prerequisites
 - [XAMPP](https://www.apachefriends.org/download.html) (for MySQL database)
 - [Apache NetBeans 15+](https://netbeans.apache.org/download/index.html)
 - Java JDK 8 or later
 - MySQL Connector/J 8.2.0
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Database Configuration
 1. Start XAMPP and run Apache & MySQL services
