@@ -10,6 +10,9 @@ A Java and MySQL based application for managing bank operations with an intuitiv
 - **Reporting Module**: Generate account statements and transaction history
 - **Customer Management**: Maintain complete customer profiles and account details
 
+### Relational Schema & ER Diagram
+![Login](Images/ER-Diagram.png)
+
 ### Role-Based Login Interface
 
 | Login Screen | User Login | Admin Login |
